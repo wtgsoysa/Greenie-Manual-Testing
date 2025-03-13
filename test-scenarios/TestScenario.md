@@ -14,3 +14,24 @@
 - **Scenario 1.11:** Verify the leaderboard considers total points and earned badges when ranking users.
 - **Scenario 1.12:** Verify admin can manage user accounts (delete, update roles).
 - **Scenario 1.13:** Verify users cannot bypass authentication to access restricted pages (security check).
+
+## 2. Challenge System & Proof Submission
+- **Scenario 2.1:** Verify users can view and browse all system-approved challenges.
+- **Scenario 2.2:** Verify users can create a new challenge with a title, description, no.Points and image.
+- **Scenario 2.3:** Verify that when a user submits a new challenge, it remains in a "Pending Approval" state.
+- **Scenario 2.4:** Verify the admin panel displays pending challenges for review.
+- **Scenario 2.5:** Verify the admin can approve or reject a user-created challenge.
+- **Scenario 2.6:** Verify that once approved, the challenge appears in the Challenges section for all users.
+- **Scenario 2.7:** Verify that if rejected, the challenge does not appear in the Challenges section and the user is notified.
+- **Scenario 2.8:** Verify users can join and accept approved challenges.
+- **Scenario 2.9:** Verify proof submission (image upload) for challenge completion.
+- **Scenario 2.10:** Verify OpenRouter AI API validates the submitted proof accurately.
+- **Scenario 2.11:** Verify the challenge status updates after submission (Pending → Approved/Rejected).
+- **Scenario 2.12:** Verify users can share a post about their completed challenge without admin approval.
+- **Scenario 2.13:** Verify admin can review and delete challenge-related shared posts if necessary.
+- **Scenario 2.14:** Verify points allocation based on challenge difficulty and completion.
+- **Scenario 2.16:** Verify leaderboard updates correctly when users complete challenges.
+- **Scenario 2.17:** Verify challenge-related posts appear on the feed instantly after completion.
+- **Scenario 2.18:** Verify challenge history is recorded in the user profile.
+- **Scenario 2.19:** Verify challenges have an expiration date (if applicable).
+- **Scenario 2.20:** Verify users cannot submit proof for an expired challenge.
