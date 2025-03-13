@@ -53,3 +53,47 @@
   - **Achievement Section**, displaying all badges the user has earned.
 - **Scenario 4.3:** Verify that badges are assigned based on milestones achieved and correctly displayed in the **Achievement Section**.
 - **Scenario 4.4:** Verify that points calculation and redemption processes work accurately.
+
+## 5. Greenie Shop (E-Commerce)
+- **Scenario 5.1:** Verify users can browse all product cards displaying **Image, Title, Points, and Price**.
+- **Scenario 5.2:** Verify users can filter products by **Most Popular, Lowest Price, Highest Price, and Newest**.
+- **Scenario 5.3:** Verify users can see their **total available points** in the shop.
+- **Scenario 5.4:** Verify the search bar allows users to search and find specific products.
+- **Scenario 5.5:** Verify users can see a **Cart Button** and clicking it opens a **right-hand sliding Cart Page**.
+- **Scenario 5.6:** Verify that if no products are added to the cart:
+  - The cart shows **0 products**.
+  - A message **"Your cart is empty"** is displayed.
+  - The **Total Price is 0**.
+  - Clicking **View Cart** navigates to the **Cart Page**.
+  - Clicking **Checkout** shows a message **"Your cart is empty"** and redirects to the **Shop Main Page**.
+- **Scenario 5.7:** Verify that clicking on a product card navigates to the **individual product preview page**, displaying:
+  - **Full product details:** Title, Units, Price, Points, Description, and Quantity.
+  - **"Add to Cart" and "Buy It Now" buttons**.
+- **Scenario 5.8:** Verify that clicking **"Add to Cart"**:
+  - Displays a message **"[Product Name] added to cart"**.
+  - Automatically **opens the right-side Cart popup**.
+- **Scenario 5.9:** Verify that adding **3 products** updates the cart correctly.
+- **Scenario 5.10:** Verify that clicking **View Cart** in the popup navigates to the **Cart Page**, displaying:
+  - **"Shopping Cart (Number of Products)"** heading.
+  - A list of all added products.
+  - Each product displayed as a **card** with:
+    - **Image, Title, Quantity, Price, and Delete button**.
+- **Scenario 5.11:** Verify that clicking the **Delete button** removes the product from the cart.
+- **Scenario 5.12:** Verify that increasing the quantity of a product updates the cart total correctly.
+- **Scenario 5.13:** Verify the **Redeem Points Section**, including:
+  - **Redeem Points heading, Available Points Count, Enter Points field, Clear button, Apply Points button, and Use Max Points button**.
+  - If the user enters more points than available, display **"You don't have enough points"** message.
+- **Scenario 5.14:** Verify the **Order Summary Section**, displaying:
+  - **Order Summary heading, Subtotal, Shipping, Total, and "Proceed to Checkout" button**.
+- **Scenario 5.15:** Verify that clicking **Proceed to Checkout** navigates to the **Checkout Page**, displaying:
+  - **Profile Details (Profile Picture, Username, Email)**.
+  - **Shipping Details** auto-filled with Username and Email.
+  - User must enter **Street Address, City, Zip Code, and Phone Number**.
+- **Scenario 5.16:** Verify that the Checkout Page also includes the **Order Summary**, displaying:
+  - **All products in the order, Subtotal, Total, and "Place Order" button**.
+- **Scenario 5.17:** Verify that clicking **"Place Order"**:
+  - Displays **"Successfully placed order, redirecting to the Shop Main Page"** message.
+  - Redirects the user to the **Shop Main Page**.
+- **Scenario 5.18:** Verify order history displays **all past purchases**.
+- **Scenario 5.19:** Verify stock management and admin control over products.
+- **Scenario 5.20:** Verify users receive confirmation notifications for purchases.
