@@ -39,3 +39,17 @@
 ## 3. Social Engagement (Posts, Likes, Comments)
 - **Scenario 3.1:** Verify users can create posts with images and text.
 - **Scenario 3.2:** Verify users can like and comment on posts.
+
+## 4. Points & Rewards System
+- **Scenario 4.1:** Verify that after a successful challenge completion, points are accurately awarded to the user.
+- **Scenario 4.2:** Verify that navigating to the **Leaderboard Page** displays:
+  - **Current Leaderboard Section**, showing the **Top 3 Users with the Highest Points**.
+    - Each card displays:
+      - **Rank, User Profile Image, Email, Points, and Challenges Completed**.
+  - **Rising Members Section**, displaying leading members with:
+    - **Rank, Member Name, Points, and Challenges Completed**.
+  - **Your Score Details Section**, showing:
+    - **Profile Picture, Username, Email, Current Rank, Challenges Completed Count, and Points Earned**.
+  - **Achievement Section**, displaying all badges the user has earned.
+- **Scenario 4.3:** Verify that badges are assigned based on milestones achieved and correctly displayed in the **Achievement Section**.
+- **Scenario 4.4:** Verify that points calculation and redemption processes work accurately.
