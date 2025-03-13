@@ -35,3 +35,7 @@
 - **Scenario 2.18:** Verify challenge history is recorded in the user profile.
 - **Scenario 2.19:** Verify challenges have an expiration date (if applicable).
 - **Scenario 2.20:** Verify users cannot submit proof for an expired challenge.
+
+## 3. Social Engagement (Posts, Likes, Comments)
+- **Scenario 3.1:** Verify users can create posts with images and text.
+- **Scenario 3.2:** Verify users can like and comment on posts.
