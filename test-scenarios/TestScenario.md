@@ -97,3 +97,82 @@
 - **Scenario 5.18:** Verify order history displays **all past purchases**.
 - **Scenario 5.19:** Verify stock management and admin control over products.
 - **Scenario 5.20:** Verify users receive confirmation notifications for purchases.
+
+## 6. Greenie Admin
+
+### 6.1 Dashboard
+- **Scenario 6.1.1:** Verify clicking the Dashboard menu item navigates to the Dashboard Page successfully.
+- **Scenario 6.1.2:** Verify the Dashboard displays the following key statistics:
+  - Total Users
+  - Total Posts
+  - Total Challenges
+  - Total Orders
+
+### 6.2 User Management
+- **Scenario 6.2.1:** Verify the User Management Section lists users with:
+  - Name, Email, Points, Number of Challenges Completed, and Actions.
+- **Scenario 6.2.2:** Verify clicking the Delete User button successfully removes a user from the system.
+
+### 6.3 Challenges Management
+#### Active & Pending Challenges
+- **Scenario 6.3.1:** Verify the Challenges Section displays two tabs: Active Challenges and Pending Challenges.
+- **Scenario 6.3.2:** Verify Active Challenges cards display:
+  - Challenge Image, Title, Added By (User), Points, Number of Submissions.
+- **Scenario 6.3.3:** Verify Pending Challenges cards display:
+  - Challenge Image, Title, Added By (User), Points, and "Needs Review" text.
+
+#### Adding a New Challenge
+- **Scenario 6.3.4:** Verify clicking the "Add Challenge" button opens a popup with input fields:
+  - Upload Image, Challenge Name, No. of Points, Challenge Description, Discard Button, Add Challenge Button.
+- **Scenario 6.3.5:** Verify filling out the form and clicking "Add Challenge" successfully adds the challenge to Active Challenges.
+
+#### Reviewing Pending Challenges
+- **Scenario 6.3.6:** Verify clicking a Pending Challenge opens a review popup showing:
+  - Challenge Image, Added By, Challenge Name, Number of Points, Challenge Description.
+  - Delete and Approve Buttons.
+- **Scenario 6.3.7:** Verify clicking the Delete Button removes the pending challenge from the system.
+- **Scenario 6.3.8:** Verify clicking the Approve Button successfully moves the challenge to Active Challenges.
+
+### 6.4 Proof Submission Management
+- **Scenario 6.4.1:** Verify Proof Submission Section displays three categories:
+  - Filter, Verified, With Issues.
+- **Scenario 6.4.2:** Verify clicking the Filter button shows all verified and issue-related proof cards.
+- **Scenario 6.4.3:** Verify clicking Verified shows only proof submissions that were successfully verified.
+- **Scenario 6.4.4:** Verify clicking With Issues displays only proof submissions flagged with issues.
+
+#### Reviewing Verified Proof
+- **Scenario 6.4.5:** Verify clicking a Verified Proof Card opens a popup displaying:
+  - Status (Verified), Challenge Name, Submitted By, User Feedback, AI Response.
+  - Delete Post Button and View Post Button.
+- **Scenario 6.4.6:** Verify clicking the Delete Post Button removes the proof submission.
+- **Scenario 6.4.7:** Verify clicking the View Post Button navigates to the respective post.
+
+#### Reviewing Proof with Issues
+- **Scenario 6.4.8:** Verify clicking an Issue Proof Card opens a popup displaying:
+  - Status (Issue), Challenge Name, Submitted By, User Feedback, AI Response.
+  - Delete Post Button and View Post Button.
+- **Scenario 6.4.9:** Verify clicking the Delete Post Button removes the issue proof submission.
+- **Scenario 6.4.10:** Verify clicking the View Post Button navigates to the respective post.
+
+### 6.5 Post Management
+- **Scenario 6.5.1:** Verify the Post Management Section lists posts with:
+  - Post ID, Content, Username, Likes, Publish Date.
+- **Scenario 6.5.2:** Verify admin can delete a post from the list.
+
+### 6.6 Badges Management
+- **Scenario 6.6.1:** Verify the Badges Section allows the admin to assign and remove badges.
+- **Scenario 6.6.2:** Verify new badges can be added with custom criteria.
+
+### 6.7 Shop Management
+#### Product Management
+- **Scenario 6.7.1:** Verify admin can view all products in the Greenie Shop.
+- **Scenario 6.7.2:** Verify admin can add a new product with details:
+  - Image, Title, Description, Points, Price, Stock Availability.
+- **Scenario 6.7.3:** Verify admin can edit product details successfully.
+- **Scenario 6.7.4:** Verify admin can delete a product.
+
+#### Order Management
+- **Scenario 6.7.5:** Verify admin can view all user orders.
+- **Scenario 6.7.6:** Verify admin can mark an order as Shipped or Completed.
+- **Scenario 6.7.7:** Verify admin can cancel and refund an order.
+
