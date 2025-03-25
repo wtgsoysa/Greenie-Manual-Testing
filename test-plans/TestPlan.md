@@ -170,6 +170,24 @@ Functional testing ensures that each feature works as intended according to the 
 ### Scenario 3.2.7: Verify that if rejected, the challenge does not appear in the Challenges section and the user is notified.
 - **Test Case 3.2.7.1**: Ensure rejected challenges do not appear in the challenges list and the user is notified.
 
+### Scenario 3.2.8: Verify users can join and accept approved challenges.
+- **Test Case 3.2.5.1**: Ensure the User can join approved challenges.
+
+### Scenario 3.2.9: Verify proof submission (image upload) & description  for challenge completion.
+- **Test Case 3.2.5.1**: Ensure the User can submit the proof (image & description)
+
+### Scenario 3.2.10: Verify OpenRouter AI API validates the submitted proof accurately.
+- **Test Case 3.2.5.1**:  Ensure the OpenRouter AI API processes and evaluates the submitted proof (image and description) accurately, providing appropriate feedback on the challenge's authenticity.
+
+### Scenario 3.2.11: Verify the challenge status updates after submission (Pending → Approved/Rejected).
+- **Test Case 3.2.5.1**:Ensure that the challenge status changes from  "Approved" to "Rejected" after successful proof submission and validation by the OpenRouter AI API.
+
+### Scenario 3.2.12:  Verify users can share a post about their completed challenge without admin approval
+- **Test Case 3.2.5.1**:Ensure users can share a post about their completed challenge directly to their profile or activity feed without requiring admin approval if the proof submission is approved.
+
+### Scenario 3.2.13: Verify proof submission (image upload) for challenge completion.
+- **Test Case 3.2.5.1**:Ensure the User can successfully upload an image as proof of challenge completion, with validations for supported image formats (e.g., JPG, PNG) and file size limits.
+
 ---
 
 ## 3.3: Social Engagement (Posts, Likes, Comments)
