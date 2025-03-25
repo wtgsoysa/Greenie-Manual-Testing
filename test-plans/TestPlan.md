@@ -101,7 +101,7 @@ Functional testing ensures that each feature works as intended according to the 
 
 ### Scenario 3.1.1: Verify user registration with valid and invalid credentials.
 - **Test Case 3.1.1.1**: Ensure the system allows registration with valid credentials.
-- **Test Case 1.1.2**: Ensure the system rejects invalid credentials (e.g., missing fields, invalid email format).
+- **Test Case 3.1.1.2**: Ensure the system rejects invalid credentials (e.g., missing fields, invalid email format).
 
 ### Scenario 3.1.2: Verify user login with valid and invalid credentials.
 - **Test Case 3.1.2.1**: Ensure the system allows login with correct credentials.

@@ -24,7 +24,7 @@
 - **Scenario 2.6:** Verify that once approved, the challenge appears in the Challenges section for all users.
 - **Scenario 2.7:** Verify that if rejected, the challenge does not appear in the Challenges section and the user is notified.
 - **Scenario 2.8:** Verify users can join and accept approved challenges.
-- **Scenario 2.9:** Verify proof submission (image upload) for challenge completion.
+  - **Scenario 2.9:** Verify proof submission (image upload) and description for challenge completion.
 - **Scenario 2.10:** Verify OpenRouter AI API validates the submitted proof accurately.
 - **Scenario 2.11:** Verify the challenge status updates after submission (Pending → Approved/Rejected).
 - **Scenario 2.12:** Verify users can share a post about their completed challenge without admin approval.
