@@ -594,6 +594,441 @@
 
 
 
+## Challenge System & Proof Submission
+
+---
+
+
+## Test Case ID: TC_016
+**Test Case Title**: Verify users can view and browse all system-approved challenges.
+
+**Test Description**: Ensure all approved challenges are visible to users.
+
+**Preconditions**:
+- User must be logged in.
+- There should be approved challenges available in the system.
+- User navigate to the Challenges page
+
+### Test Steps:
+1. Log in to the application.
+2. Navigate to the "Challenges" Page
+3. Verify that all approved challenges are visible.
+
+**Test Data**:
+- N/A
+
+**Expected Result**:
+- Users can view and browse all approved challenges.
+
+**Actual Result**:
+- [Fill in after execution]
+
+**Status**: Pass/Fail  
+**Severity**: Medium  
+**Priority**: High  
+**Assigned To**: [Tester Name]  
+**Test Execution Date**: [YYYY-MM-DD]  
+**Comments**: [Any additional notes or observations]
+
+---
+
+## Test Case ID: TC_017
+**Test Case Title**: Verify users can view each challenges
+
+**Test Description**: Verify users can view challenge with (Image , Challenge Name , Created By , Points , Description)
+
+**Preconditions**:
+- User must be logged in.
+- There should be approved challenges available in the system.
+- User navigate to the Challenges page
+- Click the challenge to view challenge
+- Navigate to the "View Challenge" page.
+
+### Test Steps:
+1. Log in to the application.
+2. Navigate to the "Challenges" Page
+3. Click the each Challenge
+4. Navigate to the "View Challenge Page"
+5. Display the (Image , Challenge Name , Created By , Points , Description)
+
+
+**Test Data**:
+- N/A
+
+**Expected Result**:
+- Users can view the challenge with valid details(Image , Challenge Name , Created By , Points , Description).
+
+**Actual Result**:
+- [Fill in after execution]
+
+**Status**: Pass/Fail  
+**Severity**: Medium  
+**Priority**: High  
+**Assigned To**: [Tester Name]  
+**Test Execution Date**: [YYYY-MM-DD]  
+**Comments**: [Any additional notes or observations]
+
+---
+
+## Test Case ID: TC_018
+**Test Case Title**: Verify users can add a new challenge with a title, description, points, and image.
+
+**Test Description**: Ensure users can submit new challenges for approval.
+
+**Preconditions**:
+- User must be logged in.
+- User has access to the "Add Challenge" feature.
+
+### Test Steps:
+1. Log in to the system.
+2. Navigate to the "Create Challenge" page.
+3. Enter the challenge title, description, points, and image.
+4. Click on the "Submit" button.
+
+**Test Data**:
+- Title: "Green Recycling Challenge"
+- Description: "Recycle waste products responsibly."
+- Points: 50
+- Image: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlC8Xf4EvWI_ixmphZxQtENmN5PJ_Mhcs_6g&s`
+
+**Expected Result**:
+- Display the message "Challenge successfully added".
+
+**Actual Result**:
+- [Fill in after execution]
+
+**Status**: Pass/Fail  
+**Severity**: Major  
+**Priority**: High  
+**Assigned To**: [Tester Name]  
+**Test Execution Date**: [YYYY-MM-DD]  
+**Comments**: [Any additional notes or observations]
+
+---
+
+
+
+## Test Case ID: TC_019
+**Test Case Title**: Verify the display user current points.
+
+**Test Description**: Test to verify User can display the user current points in "Challenges" page.
+
+**Preconditions**:
+- User logged into the system
+- Successfully navigate to the "Challenges" page.
+
+### Test Steps:
+1. Log into system
+2. Navigate to the "Challenge" page.
+
+**Test Data**
+- N/A
+
+**Expected Result**:
+- The Current Points display on the Challenge Page
+
+**Actual Result**:
+- [Fill in after execution]
+
+**Status**: Pass/Fail  
+**Severity**: Major  
+**Priority**: High  
+**Assigned To**: [Tester Name]  
+**Test Execution Date**: [YYYY-MM-DD]  
+**Comments**: [Any additional notes or observations]
+
+---
+
+
+## Test Case ID: TC_020
+**Test Case Title**: Verify proof submission (image upload) and description for challenge completion.
+
+**Test Description**: Ensure users can submit proof of challenge completion.
+
+**Preconditions**:
+- User must be a participant in the challenge.
+
+### Test Steps:
+1. Log in as a user.
+2. Navigate to the " Challenges" section.
+3. Select an active challenge.
+4. Submit proof by uploading an image and providing a description.
+5. Click on the "Submit Proof" button.
+
+**Test Data**:
+- Image: `challenge_proof.jpg`
+- Description: "Completed the recycling challenge."
+
+**Expected Result**:
+- Proof submission should be successful.
+
+**Actual Result**:
+- [Fill in after execution]
+
+**Status**: Pass/Fail  
+**Severity**: Major  
+**Priority**: High  
+**Assigned To**: [Tester Name]  
+**Test Execution Date**: [YYYY-MM-DD]  
+**Comments**: [Any additional notes or observations]
+
+---
+
+## Test Case ID: TC_021
+**Test Case Title**: Verify OpenRouter AI API validates the submitted proof accurately.
+
+**Test Description**: Ensure the AI API correctly evaluates submitted proofs.
+
+**Preconditions**:
+- Proof has been submitted for validation.
+
+### Test Steps:
+1. Submit proof for a challenge.
+2. Wait for the AI API validation response.
+3. Check the validation result.
+
+**Test Data**:
+- Image: `challenge_proof.jpg`
+
+**Expected Result**:
+- AI should accurately validate the proof submission and response display the terminal.
+
+**Actual Result**:
+- [Fill in after execution]
+
+**Status**: Pass/Fail  
+**Severity**: Major  
+**Priority**: High  
+**Assigned To**: [Tester Name]  
+**Test Execution Date**: [YYYY-MM-DD]  
+**Comments**: [Any additional notes or observations]
+
+---
+
+
+## Test Case ID: TC_022
+**Test Case Title**: Verify users completed challenge automatically share post without admin approval.
+
+**Test Description**: Ensure users completing challenges automatically share the POST.
+
+**Preconditions**:
+- User has completed a challenge.
+
+### Test Steps:
+1. Log in as a user.
+2. Navigate to the "Completed Challenges" section.
+3. Click on the "Submit Proof" button.
+4. Write a message and publish the post.
+
+**Test Data**:
+- Post Message: "Just completed the Green Recycling Challenge!"
+
+**Expected Result**:
+- The post should be shared successfully.
+
+**Actual Result**:
+- [Fill in after execution]
+
+**Status**: Pass/Fail  
+**Severity**: Low  
+**Priority**: Medium  
+**Assigned To**: [Tester Name]  
+**Test Execution Date**: [YYYY-MM-DD]  
+**Comments**: [Any additional notes or observations]
+
+---
+
+
+## Test Case ID: TC_023
+**Test Case Title**: Verify points allocation based on challenge difficulty and completion.
+
+**Test Description**: Ensure users receive the correct points upon challenge completion.
+
+**Preconditions**:
+- The challenge has assigned points based on difficulty.
+
+### Test Steps:
+1. Log in as a user.
+2. Complete a challenge.
+3. Navigate to the "Profile" section.
+4. Verify the points are updated.
+
+**Test Data**:
+- Challenge ID: `CH127`
+- Difficulty: Hard
+- Expected Points: 100
+
+**Expected Result**:
+- User points should be updated correctly.
+
+**Actual Result**:
+- [Fill in after execution]
+
+**Status**: Pass/Fail  
+**Severity**: Major  
+**Priority**: High  
+**Assigned To**: [Tester Name]  
+**Test Execution Date**: [YYYY-MM-DD]  
+**Comments**: [Any additional notes or observations]
+
+---
+
+## Test Case ID: TC_024
+**Test Case Title**: Verify leaderboard updates correctly when users complete challenges.
+
+**Test Description**: Test to verify complete challenge "Your Score" section in leaderboard update
+
+**Preconditions**:
+- The user has completed a challenge.
+- Navigate to the Leaderboard page.
+
+### Test Steps:
+1. Log in as a user.
+2. Complete the Challenge Successfully.
+3. Navigate to the "Leaderboard" section.
+4. Check the user's rank , points , Challenges Done.
+
+**Test Data**:
+- Name: `Test User`
+- Username: ` @testuser`
+- Current Rank: `Display by system`
+- Challenges Done: `1`
+- Points Earned: 100
+
+**Expected Result**:
+- Leaderboard should update to reflect the new score.
+
+**Actual Result**:
+- [Fill in after execution]
+
+**Status**: Pass/Fail  
+**Severity**: Medium  
+**Priority**: High  
+**Assigned To**: [Tester Name]  
+**Test Execution Date**: [YYYY-MM-DD]  
+**Comments**: [Any additional notes or observations]
+
+---
+
+## Test Case ID: TC_025
+**Test Case Title**: Verify challenge-related posts appear on the feed instantly after completion.
+
+**Test Description**: Ensure completed challenge posts appear on the feed.
+
+**Preconditions**:
+- User has completed a challenge.
+
+### Test Steps:
+1. Log in as a user.
+2. Navigate to the "Feed" section.
+3. Verify the completed challenge post is visible.
+
+**Test Data**:
+- Post Name: `POST124`
+- User: `testuser`
+
+**Expected Result**:
+- The post should appear instantly on the feed.
+
+**Actual Result**:
+- [Fill in after execution]
+
+**Status**: Pass/Fail  
+**Severity**: Medium  
+**Priority**: Medium  
+**Assigned To**: [Tester Name]  
+**Test Execution Date**: [YYYY-MM-DD]  
+**Comments**: [Any additional notes or observations]
+
+---
+
+## Test Case ID: TC_026
+**Test Case Title**: Verify challenge history is recorded in the user profile.
+
+**Test Description**: Ensure completed challenges are visible in the user's history.
+
+**Preconditions**:
+- User has completed one or more challenges.
+
+### Test Steps:
+1. Log in as a user.
+2. Navigate to the "Profile" section.
+3. Select "Challenges"
+4. Verify completed challenges are displayed.
+
+**Test Data**:
+- N/A
+
+**Expected Result**:
+- Challenge history should display all completed challenges.
+
+**Actual Result**:
+- [Fill in after execution]
+
+**Status**: Pass/Fail  
+**Severity**: Low  
+**Priority**: Medium  
+**Assigned To**: [Tester Name]  
+**Test Execution Date**: [YYYY-MM-DD]  
+**Comments**: [Any additional notes or observations]
+
+
+
+---
+
+
+
+## Test Case ID: TC_027
+**Test Case Title**: Verify system handles simultaneous challenge submissions.
+
+**Test Description**: Ensure the system can handle multiple users submitting challenges simultaneously.
+
+**Preconditions**:
+- Multiple users are active and submitting proofs.
+
+### Test Steps:
+1. Simulate multiple users submitting proofs at the same time.
+2. Monitor the system's response.
+3. Check for errors or performance issues.
+
+**Test Data**:
+- Number of Users: `5`
+
+
+**Expected Result**:
+- The system should handle submissions without crashing or slowing down.
+
+**Actual Result**:
+- [Fill in after execution]
+
+**Status**: Pass/Fail  
+**Severity**: Major  
+**Priority**: High  
+**Assigned To**: [Tester Name]  
+**Test Execution Date**: [YYYY-MM-DD]  
+**Comments**: [Any additional notes or observations]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
