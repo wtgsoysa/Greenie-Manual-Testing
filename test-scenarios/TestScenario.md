@@ -14,6 +14,13 @@
 - **Scenario 1.11:** Verify the leaderboard considers total points and earned badges when ranking users.
 - **Scenario 1.12:** Verify admin can manage user accounts (delete, update roles).
 - **Scenario 1.13:** Verify users cannot bypass authentication to access restricted pages (security check).
+- **Scenario 1.15:** Verify feed section is visible on the profile home page.
+- **Scenario 1.16:** Verify each poster in feed displays the same username,name and profile image of logged user.
+- **Scenario 1.17:** Verify the logged user can delete their own posts.
+- **Scenario 1.18:** Verify that each poster contains the following elements: an image(if added), content text and like count and comment count.
+- **Scenario 1.19:** Verify that users can view all comments under a post and can add a new comment.
+
+
 
 ## 2. Challenge System & Proof Submission
 - **Scenario 2.1:** Verify users can view and browse all system-approved challenges.
