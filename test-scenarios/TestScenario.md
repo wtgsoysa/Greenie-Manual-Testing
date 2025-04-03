@@ -201,9 +201,3 @@
 - **Scenario 6.7.6:** Verify admin can mark an order as Shipped or Completed.
 - **Scenario 6.7.7:** Verify admin can cancel and refund an order.
 
-
-## 7. Greenie Home
-
-## 5. Greenie Feed (Social Engagement)
-- **Scenario 7.1:** Verify user will navigate to feed page by navigation bar.
-- 
