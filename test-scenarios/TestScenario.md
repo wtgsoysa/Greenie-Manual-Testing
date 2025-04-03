@@ -14,6 +14,14 @@
 - **Scenario 1.11:** Verify the leaderboard considers total points and earned badges when ranking users.
 - **Scenario 1.12:** Verify admin can manage user accounts (delete, update roles).
 - **Scenario 1.13:** Verify users cannot bypass authentication to access restricted pages (security check).
+- **Scenario 1.15:** Verify feed section is visible on the profile home page.
+- **Scenario 1.16:** Verify each poster in feed displays the same username,name and profile image of logged user.
+- **Scenario 1.17:** Verify the logged user can delete their own posts.
+- **Scenario 1.18:** Verify that each poster contains the following elements: an image(if added), content text and like count and comment count.
+- **Scenario 1.19:** Verify that users can view all comments under a post and can add a new comment.
+- **Scenario 1.19:** Verify that users can delete their comments under their post.
+
+
 
 ## 2. Challenge System & Proof Submission
 - **Scenario 2.1:** Verify users can view and browse all system-approved challenges.
@@ -24,7 +32,7 @@
 - **Scenario 2.6:** Verify that once approved, the challenge appears in the Challenges section for all users.
 - **Scenario 2.7:** Verify that if rejected, the challenge does not appear in the Challenges section and the user is notified.
 - **Scenario 2.8:** Verify users can join and accept approved challenges.
-  - **Scenario 2.9:** Verify proof submission (image upload) and description for challenge completion.
+- **Scenario 2.9:** Verify proof submission (image upload) and description for challenge completion.
 - **Scenario 2.10:** Verify OpenRouter AI API validates the submitted proof accurately.
 - **Scenario 2.11:** Verify the challenge status updates after submission (Pending → Approved/Rejected).
 - **Scenario 2.12:** Verify users can share a post about their completed challenge without admin approval.
@@ -36,9 +44,25 @@
 - **Scenario 2.19:** Verify challenges have an expiration date (if applicable).
 - **Scenario 2.20:** Verify users cannot submit proof for an expired challenge.
 
-## 3. Social Engagement (Posts, Likes, Comments)
-- **Scenario 3.1:** Verify users can create posts with images and text.
-- **Scenario 3.2:** Verify users can like and comment on posts.
+
+
+## 3. Feed (Social Engagement)
+- **Scenario 3.1:** Verify that users cannot bypass authentication to access the feed page (security validation).  
+- **Scenario 3.2:** Verify that users can navigate to the feed page using the sidebar navigation.  
+- *Scenario 3.3:** Verify that the sidebar, feed section, and challenge card section are displayed and aligned correctly.  
+- *Scenario 3.4:** Verify that users can create a post by entering text content and uploading an image.  
+- *Scenario 3.5:** Verify that each post displays user’s name, username, profile image, post content, image, like count, and comment count.  
+- *Scenario 3.6:** Verify that users can view all comments under a post.  
+- *Scenario 3.7:** Verify that users can add a comment to a post.  
+- *Scenario 3.8:** Verify that each comment displays username, profile image, content, and timestamp.  
+- *Scenario 3.9:** Verify that the close button works properly in the comment popup window.  
+- *Scenario 3.10:** Verify that the feed section displays all posts from the database.  
+- *Scenario 3.11:** Verify that each challenge card displays the challenge title, enrolled count, and points amount.  
+- *Scenario 3.12:** Verify that users can navigate to a challenge detail page by clicking the challenge card.  
+- *Scenario 3.13:** Verify that the challenge card section displays only the latest 6 challenges.  
+- *Scenario 3.14:** Verify that users can report a post by clicking the option button (three dots).
+
+
 
 ## 4. Points & Rewards System
 - **Scenario 4.1:** Verify that after a successful challenge completion, points are accurately awarded to the user.
@@ -97,6 +121,7 @@
 - **Scenario 5.18:** Verify order history displays **all past purchases**.
 - **Scenario 5.19:** Verify stock management and admin control over products.
 - **Scenario 5.20:** Verify users receive confirmation notifications for purchases.
+
 
 ## 6. Greenie Admin
 
